@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaloncestoWeb | Contacta con nosotros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Tareafinal2Carlosvalliente.css">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="shortcut icon" href="img/logo-principal.png" type="image/x-icon">
+
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <img src="img/imagen_principal.png" alt="Imagen principal" class="banner">
+        <div class="cabecera" id="inicio">
+            <a href="index.html">
+                <img src="img/logo-principal.png" alt="Logo Baloncesto" class="logo">
+            </a>
+        </div>
+        <!-- Barra de búsqueda -->
+        <div class="buscador">
+            <input type="text" placeholder="Buscar..." class="inputbuscar" aria-label="Buscar">
+            <button class="btnbuscar">🔍</button>
+        </div>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Ligas ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://www.nba.com/"><img src="img/liga1.png" alt="NBA"><span>NBA</span></a></li>
+                    <li><a href="https://www.euroleague.net/"><img src="img/liga2.png" alt="Euroleague"><span>Euroleague</span></a></li>
+                    <li><a href="https://www.acb.com/"><img src="img/liga3.png" alt="ACB"><span>ACB</span></a></li>
+                    <li><a href="https://www.nbl.com/"><img src="img/liga5.png" alt="NBL"><span>NBL</span></a></li>
+                </ul>
+            </li>
+            <li><a href="noticia.html">Noticias</a></li>
+            <li><a href="estadisticas.html">Estadísticas</a></li>
+            <li><a href="formulario.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <h1 class="visually-hidden">BaloncestoWeb - Formulario de Contacto</h1>
+        <div class="formbox">
+            <h2>Envíanos tu mensaje</h2>
+            <form action="#" method="post">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" tabindex="1" required>
+                </div>
+                
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required tabindex="2">
+                </div>
+                
+                <div class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required tabindex="3"></textarea>
+                </div>
+                
+                <button type="submit" class="btnenviar">Enviar</button>
+            </form>
+            
+            <a href="index.html" class="btnvolver">← Volver al inicio</a>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Contacto: <a href="mailto:cvalientem04@educarex.es">cvalientem04@educarex.es</a></p>
+        <p>Teléfono: <a href="tel:+34600000000">+34 600 000 000</a></p>
+        <p>© 2025 BaloncestoWeb. Todos los derechos reservados.</p>
+        <a href="http://www.w3.org/WAI/WCAG2AA-Conformance" title="Explicación del Nivel AA de Conformidad">
+            <img height="32" width="88" src="http://www.w3.org/WAI/wcag2AA" alt="Nivel de conformidad Doble A, W3C WAI">
+        </a>    
+        <div id="contacto"></div>
+    </footer>
+</body>
+</html>

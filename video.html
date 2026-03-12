@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaloncestoWeb | Vídeos Destacados</title>
+    <link rel="stylesheet" href="Tareafinal2Carlosvalliente.css">
+    <link rel="shortcut icon" href="img/logo-principal.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <img src="img/imagen_principal.png" alt="Imagen principal" class="banner">
+        <div class="cabecera" id="inicio">
+            <a href="index.html">
+                <img src="img/logo-principal.png" alt="Logo Baloncesto" class="logo">
+            </a>
+        </div>
+        <div class="buscador">
+            <input type="text" placeholder="Buscar..."  class="inputbuscar" aria-label="Buscar">
+            <button class="btnbuscar">🔍</button>
+        </div>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Ligas ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://www.nba.com/"><img src="img/liga1.png" alt="NBA"><span>NBA</span></a></li>
+                    <li><a href="https://www.euroleague.net/"><img src="img/liga2.png" alt="Euroleague"><span>Euroleague</span></a></li>
+                    <li><a href="https://www.acb.com/"><img src="img/liga3.png" alt="ACB"><span>ACB</span></a></li>
+                    <li><a href="https://www.nbl.com/"><img src="img/liga5.png" alt="NBL"><span>NBL</span></a></li>
+                </ul>
+            </li>
+            <li><a href="noticia.html">Noticias</a></li>
+            <li><a href="estadisticas.html">Estadísticas</a></li>
+            <li><a href="formulario.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <div class="videobox">
+            <h2>🎬 Video Destacado</h2>
+
+            <div class="videowrap">
+
+                <video controls width="100%">
+                    <source src="video/mejoresjugadas.mp4" type="video/mp4">
+                </video>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <section id="contacto">
+            <p>Contacto: <a href="mailto:cvalientem04@educarex.es">cvalientem04@educarex.es</a></p>
+            <p>Teléfono: <a href="tel:+34600000000">+34 600 000 000</a></p>
+            <p>© 2025 BaloncestoWeb. Todos los derechos reservados.</p>
+            <a href="http://www.w3.org/WAI/WCAG2AA-Conformance" title="Explicación del Nivel AA de Conformidad">
+                <img height="32" width="88" src="http://www.w3.org/WAI/wcag2AA" alt="Nivel de conformidad Doble A, W3C WAI">
+            </a>
+        </section>
+    </footer>
+
+</body>
+</html>

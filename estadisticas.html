@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaloncestoWeb | Estadísticas NBA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Tareafinal2Carlosvalliente.css">
+    <link rel="stylesheet" href="estadisticas.css">
+    <link rel="shortcut icon" href="img/logo-principal.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Encabezado con logo -->
+    <header>
+        <img src="img/imagen_principal.png" alt="Imagen principal" class="banner">
+        <div class="cabecera" id="inicio">
+            <a href="index.html">
+                <img src="img/logo-principal.png" alt="Logo Baloncesto" class="logo">
+            </a>
+        </div>
+
+        <!-- Barra de búsqueda -->
+        <div class="buscador">
+            <input type="text" placeholder="Buscar..." class="inputbuscar" aria-label="Buscar">
+            <button class="btnbuscar">🔍</button>
+        </div>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Ligas ▼</a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="https://www.nba.com/">
+                            <img src="img/liga1.png" alt="NBA">
+                            <span>NBA</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.euroleaguebasketball.net/es/euroleague/">
+                            <img src="img/liga2.png" alt="Euroleague">
+                            <span>Euroleague</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.acb.com/">
+                            <img src="img/liga3.png" alt="ACB">
+                            <span>ACB</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nbl.com.au/">
+                            <img src="img/liga5.png" alt="NBL">
+                            <span>NBL</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="noticia.html">Noticias</a></li>
+            <li><a href="estadisticas.html" class="nav-activo">Estadísticas</a></li>
+            <li><a href="formulario.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="principal">
+
+        <!-- Título de la página -->
+        <div class="hero">
+            <h1>Estadísticas NBA 2025-26</h1>
+            <p>Líderes en puntos, rebotes y robos de la temporada</p>
+        </div>
+
+        <!--  LÍDERES EN PUNTOS  -->
+        <section class="seccion">
+            <h2>Líderes en Puntos por Partido</h2>
+            <div class="tablabox">
+                <table class="tablastats">
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th>Jugador</th>
+                            <th>Equipo</th>
+                            <th>PPG</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="posicion">1</td>
+                            <td><strong>Luka Dončić</strong></td>
+                            <td>DAL</td>
+                            <td><strong>33.8</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="posicion">2</td>
+                            <td><strong>Shai Gilgeous-Alexander</strong></td>
+                            <td>OKC</td>
+                            <td><strong>31.5</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="posicion">3</td>
+                            <td><strong>Joel Embiid</strong></td>
+                            <td>PHI</td>
+                            <td><strong>30.2</strong></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td><strong>Giannis Antetokounmpo</strong></td>
+                            <td>MIL</td>
+                            <td><strong>29.8</strong></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td><strong>Kevin Durant</strong></td>
+                            <td>PHX</td>
+                            <td><strong>28.1</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!--  LÍDERES EN REBOTES  -->
+        <section class="seccion">
+            <h2>Líderes en Rebotes por Partido</h2>
+            <div class="tablabox">
+                <table class="tablastats">
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th>Jugador</th>
+                            <th>Equipo</th>
+                            <th>RPG</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="posicion">1</td>
+                            <td><strong>Domantas Sabonis</strong></td>
+                            <td>SAC</td>
+                            <td><strong>13.4</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="posicion">2</td>
+                            <td><strong>Nikola Jokić</strong></td>
+                            <td>DEN</td>
+                            <td><strong>12.8</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="posicion">3</td>
+                            <td><strong>Anthony Davis</strong></td>
+                            <td>LAL</td>
+                            <td><strong>12.1</strong></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td><strong>Rudy Gobert</strong></td>
+                            <td>MIN</td>
+                            <td><strong>11.7</strong></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td><strong>Joel Embiid</strong></td>
+                            <td>PHI</td>
+                            <td><strong>11.2</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>        
+
+        <!--  ESTADÍSTICAS DE EQUIPOS  -->
+        <section class="seccion">
+            <h2>Estadísticas por Equipos</h2>
+
+            <!-- Conferencia Este -->
+            <div class="conferencia">
+                <h3 class="conftitulo este">Conferencia Este</h3>
+                <div class="tablabox">
+                    <table class="tablastats">
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Equipo</th>
+                                <th>RPG</th>
+                                <th>APG</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="posicion">1</td>
+                                <td><strong>Boston Celtics</strong></td>
+                                <td>46.2</td>
+                                <td>27.1</td>
+                            </tr>
+                            <tr>
+                                <td class="posicion">2</td>
+                                <td><strong>Milwaukee Bucks</strong></td>
+                                <td>47.5</td>
+                                <td>25.3</td>
+                            </tr>
+                            <tr>
+                                <td class="posicion">3</td>
+                                <td><strong>Philadelphia 76ers</strong></td>
+                                <td>44.8</td>
+                                <td>24.9</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><strong>Cleveland Cavaliers</strong></td>
+                                <td>43.7</td>
+                                <td>26.5</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><strong>New York Knicks</strong></td>
+                                <td>45.1</td>
+                                <td>24.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Conferencia Oeste -->
+            <div class="conferencia">
+                <h3 class="conftitulo oeste">Conferencia Oeste</h3>
+                <div class="tablabox">
+                    <table class="tablastats">
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Equipo</th>
+                                <th>RPG</th>
+                                <th>APG</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="posicion">1</td>
+                                <td><strong>Oklahoma City Thunder</strong></td>
+                                <td>45.8</td>
+                                <td>27.6</td>
+                            </tr>
+                            <tr>
+                                <td class="posicion">2</td>
+                                <td><strong>Denver Nuggets</strong></td>
+                                <td>47.3</td>
+                                <td>28.9</td>
+                            </tr>
+                            <tr>
+                                <td class="posicion">3</td>
+                                <td><strong>Dallas Mavericks</strong></td>
+                                <td>43.5</td>
+                                <td>26.4</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><strong>Minnesota Timberwolves</strong></td>
+                                <td>46.1</td>
+                                <td>25.8</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><strong>Los Angeles Lakers</strong></td>
+                                <td>44.7</td>
+                                <td>26.3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <section id="contacto">
+            <p>Contacto: <a href="mailto:cvalientem04@educarex.es">cvalientem04@educarex.es</a></p>
+            <p>Teléfono: <a href="tel:+34600000000">+34 600 000 000</a></p>
+            <p>© 2025 BaloncestoWeb. Todos los derechos reservados.</p>
+            <a href="http://www.w3.org/WAI/WCAG2AA-Conformance" title="Explicación del Nivel AA de Conformidad">
+                <img height="32" width="88" src="http://www.w3.org/WAI/wcag2AA" alt="Nivel de conformidad Doble A, W3C WAI">
+            </a>
+        </section>
+    </footer>
+</body>
+
+</html>

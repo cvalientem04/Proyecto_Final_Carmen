@@ -1,0 +1,144 @@
+﻿/* 
+   ESTADÍSTICAS - CSS
+   Colores: #333, #1a1a1a, #ffcc00, #cc5200
+    */
+
+/* Enlace activo en el menú de navegación */
+.nav-activo {
+    background-color: rgba(102, 102, 102, 0.7);
+}
+
+/* Hero / Título */
+.hero {
+    text-align: center;
+    padding: 40px 20px 20px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin: 0 0 10px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #e6e6e6;
+    margin: 0;
+}
+
+/* Secciones generales */
+.seccion {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 25px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.seccion h2 {
+    color: #222;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* 
+   TABLAS DE ESTADÍSTICAS
+    */
+.conferencia {
+    margin-bottom: 30px;
+}
+
+.conftitulo {
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.conftitulo.este {
+    background: #1a1a2e;
+}
+
+.conftitulo.oeste {
+    background: #2e1a1a;
+}
+
+.tablabox {
+    overflow-x: auto;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.tablastats {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+}
+
+.tablastats thead tr {
+    background: #222;
+}
+
+.tablastats th {
+    background: #222;
+    color: #ffcc00;
+    padding: 12px 10px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.tablastats td {
+    padding: 11px 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
+
+.tablastats tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.tablastats tbody tr:hover {
+    background: #fff3cd;
+}
+
+.posicion {
+    font-weight: 900;
+    color: #cc5200;
+}
+
+/* ==========================================
+   RESPONSIVE
+   ========================================== */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 1.6rem;
+    }
+
+    .seccion {
+        margin: 15px 10px;
+        padding: 20px 15px;
+    }
+
+    .tablastats {
+        font-size: 0.8rem;
+    }
+
+    .tablastats th,
+    .tablastats td {
+        padding: 8px 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.3rem;
+    }
+}
